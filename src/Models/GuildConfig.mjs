@@ -307,7 +307,7 @@ export default {
   VoiceLevelupChannel: { type: String, default: "" },
   LevelupMessage: {
     type: String,
-    default: "**GG** {user:mention}, you are now level **{user:level}**",
+    default: "**Chúc mừng tuất** {user:mention}, mày đã tu đến cấp độ **{user:level}**",
   },
   VoiceLevelupMessage: {
     type: String,
