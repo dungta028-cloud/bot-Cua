@@ -21,11 +21,18 @@ export default {
       if (message.mentions.has(client.user)) {
         const nyID = "1450896186377638023"; 
 
+        // 1. Nếu là người yêu tag
         if (message.author.id === nyID) {
           return await message.reply("Dạ, bé nghe nè cục cưng ơi! ❤️");
-        } else {
-          return await message.reply("Gì tuất gọi gì t đấy");
         }
+
+        // 2. Nếu nội dung tag có chứa cụm từ "quất nó"
+        if (message.content.toLowerCase().includes("quất nó")) {
+          return await message.reply("T lười r");
+        }
+
+        // 3. Các trường hợp tag thông thường khác của người khác
+        return await message.reply("Gì tuất gọi gì t đấy");
       }
 
       const guildData = await message.guild.fetchData();
