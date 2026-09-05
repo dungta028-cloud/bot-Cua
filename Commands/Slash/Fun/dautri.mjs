@@ -16,7 +16,7 @@ const questionBank = [
   { category: "Khoa học", question: "Hành tinh nào được mệnh danh là Hành tinh Đỏ?", options: ["Sao Kim", "Sao Hỏa", "Sao Thổ", "Sao Mộc"], answer: "Sao Hỏa", explanation: "Do bề mặt chứa nhiều oxit sắt." },
   { category: "Khoa học", question: "Vitamin nào tổng hợp chủ yếu khi da tiếp xúc với ánh nắng mặt trời?", options: ["Vitamin A", "Vitamin B", "Vitamin C", "Vitamin D"], answer: "Vitamin D", explanation: "Tia UV giúp cơ thể tổng hợp vitamin D." },
   { category: "Khoa học", question: "Kim loại nào ở trạng thái lỏng ở nhiệt độ phòng?", options: ["Sắt", "Đồng", "Thủy ngân", "Nhôm"], answer: "Thủy ngân", explanation: "Thủy ngân (Hg) lỏng ở điều kiện thường." },
-  { category: "Khoa học", question: "Cấu trúc di truyền của sinh vật lưu giữ dưới dạng gì?", options: ["RNA", "DNA", "Protein", Lipid], answer: "DNA", explanation: "DNA chứa thông tin di truyền." },
+  { category: "Khoa học", question: "Cấu trúc di truyền của sinh vật lưu giữ dưới dạng gì?", options: ["RNA", "DNA", "Protein", "Lipid"], answer: "DNA", explanation: "DNA chứa thông tin di truyền." },
   { category: "Khoa học", question: "Sóng âm truyền nhanh nhất qua môi trường nào?", options: ["Chất khí", "Chất lỏng", "Chất rắn", "Chân không"], answer: "Chất rắn", explanation: "Mật độ phân tử chất rắn cao giúp truyền âm tốt nhất." },
   { category: "Khoa học", question: "Bệnh thiếu máu thường do cơ thể thiếu chất gì?", options: ["Canxi", "Sắt", "Kẽm", "Magie"], answer: "Sắt", explanation: "Sắt cần thiết để tạo hemoglobin." },
   { category: "Khoa học", question: "Tầng khí quyển nào nằm sát bề mặt Trái Đất nhất?", options: ["Tầng bình lưu", "Tầng đối lưu", "Tầng trung gian", "Tầng điện ly"], answer: "Tầng đối lưu", explanation: "Nơi diễn ra các hiện tượng thời tiết." },
