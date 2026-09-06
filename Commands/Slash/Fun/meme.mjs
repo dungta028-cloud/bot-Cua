@@ -4,7 +4,7 @@ import { SlashCommandBuilder } from 'discord.js';
 export default {
     data: new SlashCommandBuilder()
         .setName('meme')
-        .setDescription('Get a meme from a subreddit')
+        .setDescription('Meme')
     ,
     category: 'Fun',
     cooldown: 5,
