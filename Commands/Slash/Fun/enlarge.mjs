@@ -4,7 +4,7 @@ import { EmbedBuilder } from '../../../src/utils/index.mjs';
 export default {
     data: new SlashCommandBuilder()
         .setName('enlarge')
-        .setDescription('Enlarge an emoji')
+        .setDescription('Mở rộng emoji')
         .addStringOption(option =>
             option.setName('emoji')
                 .setDescription('The emoji you want to enlarge')
