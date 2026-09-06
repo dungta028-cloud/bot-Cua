@@ -5,7 +5,7 @@ import birthday from '../../Prefix/Misc/birthday.mjs'
 export default {
   data: new SlashCommandBuilder()
     .setName('8ball')
-    .setDescription('8ball cmmand')
+    .setDescription('8ball')
     .addStringOption(op => op.setName("question").setDescription("The queston you want to ask").setRequired(true))
     ,
   category: "Fun",
