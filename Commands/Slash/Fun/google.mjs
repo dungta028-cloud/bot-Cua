@@ -3,7 +3,7 @@ import { SlashCommandBuilder } from 'discord.js';
 export default {
   data: new SlashCommandBuilder()
     .setName('google')
-    .setDescription('Generate a link to letmegooglethat.com with a specific search query')
+    .setDescription('Tạo link google theo ý muốn')
     .addStringOption(option =>
       option.setName('query')
         .setDescription('The search query')
