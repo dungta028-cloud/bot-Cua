@@ -19,20 +19,20 @@ export default {
 
       // KIỂM TRA NẾU CÓ TAG BOT
       if (message.mentions.has(client.user)) {
-        const nyID = "1450896186377638023"; 
+        const nyID = "1204794568269103148"; 
 
         // 1. Nếu là người yêu tag
         if (message.author.id === nyID) {
-          return await message.reply("Dạ, bé nghe nè cục cưng ơi! ❤️");
+          return await message.reply("Hú t nghe có gì ko tuất nam");
         }
 
         // 2. Nếu nội dung tag có chứa cụm từ "quất nó"
-        if (message.content.toLowerCase().includes("quất nó")) {
-          return await message.reply("T lười r");
+        if (message.content.toLowerCase().includes("Chan nó")) {
+          return await message.reply("Sợ lắm");
         }
 
         // 3. Các trường hợp tag thông thường khác của người khác
-        return await message.reply("Gì tuất gọi gì t đấy");
+        return await message.reply("Hé lô");
       }
 
       const guildData = await message.guild.fetchData();
