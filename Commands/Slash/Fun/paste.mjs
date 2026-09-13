@@ -4,7 +4,7 @@ import { ActionRowBuilder, ButtonBuilder, SlashCommandBuilder } from 'discord.js
 export default {
   data: new SlashCommandBuilder()
     .setName('paste')
-    .setDescription('Create a new paste on Sourbin')
+    .setDescription('Tạo một bản dán mới trên Sourbin')
     .addStringOption(option =>
       option.setName('content')
         .setDescription('The content you want to paste')

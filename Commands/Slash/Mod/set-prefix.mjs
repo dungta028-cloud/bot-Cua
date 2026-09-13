@@ -7,7 +7,7 @@ export default {
     category: "Misc",
     data: new SlashCommandBuilder()
         .setName('set-prefix')
-        .setDescription('Update Server Prefix!')
+        .setDescription('Cập nhật prefix mới')
         .addStringOption(op => op
             .setName("prefix")
             .setDescription("Enter Prefix")

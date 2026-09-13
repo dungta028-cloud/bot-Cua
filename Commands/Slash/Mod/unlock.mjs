@@ -4,11 +4,11 @@ import { ChannelType, PermissionFlagsBits, SlashCommandBuilder } from 'discord.j
 export default {
     data: new SlashCommandBuilder()
         .setName('unlock')
-        .setDescription('unlock server channels')
+        .setDescription('Mở khóa kênh đã lock')
         .setDefaultMemberPermissions(PermissionFlagsBits.Administrator)
         .addChannelOption(option =>
             option.setName('channel')
-                .setDescription('leave blank to select all')
+                .setDescription('Để trống để chọn tất cả')
                 .addChannelTypes(ChannelType.GuildText)
                 .setRequired(false)),
     category: 'Moderation',

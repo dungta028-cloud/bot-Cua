@@ -6,7 +6,7 @@ import Help from '../../Prefix/Info/help.mjs';
 export default {
   data: new SlashCommandBuilder()
     .setName('help')
-    .setDescription('Get the list of commands!')
+    .setDescription('Các lệnh của bot')
     .setDMPermission(false),
   category: "General",
   cooldown: 10,

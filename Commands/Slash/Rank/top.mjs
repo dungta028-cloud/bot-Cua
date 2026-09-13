@@ -9,10 +9,10 @@ export default {
     category: "Rank",
     data: new SlashCommandBuilder()
         .setName('top')
-        .setDescription('Displays most active members on the server!')
+        .setDescription('Hiển thị các thành viên hoạt động tích cực nhất trên máy chủ!')
         .addStringOption(op => op
             .setName("type")
-            .setDescription("The lead board type either text or voice")
+            .setDescription("Loại bảng dẫn đầu có thể là dạng văn bản hoặc giọng nói.")
             .addChoices({
                 name: "Text",
                 value: "text"
@@ -35,7 +35,7 @@ export default {
         //     }))
         .addNumberOption(op => op
             .setName("page")
-            .setDescription("The LeadBoard page number")
+            .setDescription("Số trang của bảng xếp hạng")
             .setMinValue(1)
             .setMaxValue(100)
             .setRequired(false))

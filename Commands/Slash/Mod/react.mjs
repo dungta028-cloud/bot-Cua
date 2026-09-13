@@ -6,7 +6,7 @@ export default {
     data: new SlashCommandBuilder()
         .setName('react')
         .setDefaultMemberPermissions(PermissionFlagsBits.Administrator)
-        .setDescription('React to a message with an emoji (Staff only)')
+        .setDescription('Phản ứng với tin nhắn bằng biểu tượng cảm xúc (Staff only)')
         .addStringOption(option =>
             option.setName('message_id')
                 .setDescription('The ID of the message to react to')

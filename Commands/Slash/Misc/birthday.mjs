@@ -5,7 +5,7 @@ import birthday from '../../Prefix/Misc/birthday.mjs'
 export default {
   data: new SlashCommandBuilder()
     .setName('birthday')
-    .setDescription('manage your birthday or view upcoming birthdays'),
+    .setDescription('Quản lý sinh nhật của bạn hoặc xem các sinh nhật sắp tới'),
   category: "Misc",
   cooldown: 10,
   run: async ({ interaction, client, err, guildData }) => {

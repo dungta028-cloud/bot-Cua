@@ -6,7 +6,7 @@ export default {
     category: "Misc",
     data: new SlashCommandBuilder()
         .setName("notes")
-        .setDescription("Manage your notes")
+        .setDescription("Quản lý ghi chú của bạn")
         .addSubcommand((subcommand) => subcommand
             .setName("add")
             .setDescription("Add a note")

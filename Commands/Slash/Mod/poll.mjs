@@ -6,7 +6,7 @@ export default {
     category: "Moderation",
     data: new SlashCommandBuilder()
         .setName('poll')
-        .setDescription('Creates a poll with up to ten options')
+        .setDescription('Tạo một cuộc thăm dò ý kiến ​​với tối đa mười tùy chọn.')
         .setDMPermission(false)
         .setDefaultMemberPermissions(PermissionFlagsBits.ManageGuild)
         .addStringOption(option => option.setName('title')

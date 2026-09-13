@@ -5,33 +5,33 @@ import { parseEmoji } from '../../../src/utils/emoji.mjs';
 export default {
     data: new SlashCommandBuilder()
         .setName("word-react")
-        .setDescription("setup word react for this server")
+        .setDescription("Thiết lập React cho máy chủ này")
         .setDefaultMemberPermissions(PermissionFlagsBits.Administrator)
         .addSubcommand(sub => sub
             .setName("add")
-            .setDescription("add a word to the word react list")
+            .setDescription("Thêm một từ vào danh sách từ phản ứng")
             .addStringOption(option => option
                 .setName("word")
-                .setDescription("the word to add")
+                .setDescription("từ cần thêm vào")
                 .setRequired(true)
             )
             .addStringOption(option => option
                 .setName("emoji")
-                .setDescription("the emoji to react with")
+                .setDescription("biểu tượng cảm xúc để phản ứng")
                 .setRequired(true)
             )
         )
         .addSubcommand(sub => sub
             .setName("remove")
-            .setDescription("remove word-react")
+            .setDescription("xóa word-react")
             .addStringOption(op => op
                 .setName("word")
                 .setRequired(true)
-                .setDescription("the word to remove")
+                .setDescription("từ cần loại bỏ")
             ))
         .addSubcommand(sub => sub
             .setName("list")
-            .setDescription("list all word-reacts")
+            .setDescription("Liệt kê tất cả các phản ứng bằng từ ngữ")
         )
 
         .setDMPermission(false),

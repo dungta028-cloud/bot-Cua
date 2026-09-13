@@ -8,7 +8,7 @@ export default {
   category: "Moderation",
   data: new SlashCommandBuilder()
     .setName("strikes-remove")
-    .setDescription("Update Server Prefix!")
+    .setDescription("Cập nhật tiền tố máy chủ")
     .addNumberOption((op) =>
       op
         .setName("number")

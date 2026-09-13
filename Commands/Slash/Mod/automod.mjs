@@ -7,7 +7,7 @@ export default {
     category: "Moderation",
     data: new SlashCommandBuilder()
         .setName('automod')
-        .setDescription('Setup auto moderation for this server!')
+        .setDescription('Thiết lập kiểm duyệt tự động cho máy chủ này!')
         .setDMPermission(false)
         .setDefaultMemberPermissions(PermissionFlagsBits.Administrator),
     cooldown: 10,

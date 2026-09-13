@@ -6,7 +6,7 @@ import Prefix from '../../Prefix/Info/prefix.mjs';
 export default {
   data: new SlashCommandBuilder()
     .setName('prefix')
-    .setDescription('Shows You Server Prefix!')
+    .setDescription('Xem prefix của server')
     .setDMPermission(false),
   category: "General",
   cooldown: 10,

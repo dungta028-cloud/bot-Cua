@@ -7,7 +7,7 @@ export default {
     category: "Rank",
     data: new SlashCommandBuilder()
         .setName('rank')
-        .setDescription('Check your rank or ronk of someone else!')
+        .setDescription('Kiểm tra thứ hạng của bạn hoặc của người khác!')
         .addUserOption(op => op
             .setName("user")
             .setDescription("Select User")

@@ -4,7 +4,7 @@ import { ChannelType, PermissionFlagsBits, SlashCommandBuilder } from 'discord.j
 export default {
     data: new SlashCommandBuilder()
         .setName('lock')
-        .setDescription('lock server channels')
+        .setDescription('Khóa kênh')
         .setDefaultMemberPermissions(PermissionFlagsBits.Administrator)
         .addChannelOption(option =>
             option.setName('channel')

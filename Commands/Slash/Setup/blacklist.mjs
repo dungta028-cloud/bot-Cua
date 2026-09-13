@@ -5,15 +5,15 @@ import { parseEmoji } from '../../../src/utils/emoji.mjs';
 export default {
     data: new SlashCommandBuilder()
         .setName("black-list")
-        .setDescription("black list users.")
+        .setDescription("Danh sách đen")
         .setDefaultMemberPermissions(PermissionFlagsBits.Administrator)
         .addSubcommand(sub => sub
             .setName("add")
-            .setDescription("add a user to black list")
+            .setDescription("Thêm thành viên vào danh sách đen")
             .addUserOption(option => option
                 .setName("user")
 
-                .setDescription("the user to add")
+                .setDescription("Thành viên thêm vào")
                 .setRequired(true)
             )
         )

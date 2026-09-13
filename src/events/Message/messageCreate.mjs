@@ -23,7 +23,7 @@ export default {
 
         // 1. Nếu là người yêu tag
         if (message.author.id === nyID) {
-          return await message.reply("Hú t nghe có gì ko tuất nam");
+          return await message.reply("Ơii t nghe");
         }
 
         // 2. Nếu nội dung tag có chứa cụm từ "quất nó"

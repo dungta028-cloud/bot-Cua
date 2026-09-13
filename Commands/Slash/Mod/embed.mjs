@@ -7,7 +7,7 @@ export default {
     category: "Moderation",
     data: new SlashCommandBuilder()
         .setName('embed')
-        .setDescription('Creates a custom embed and send in channel!')
+        .setDescription('Tạo một tin nhắn embed tùy chỉnh và gửi vào kênh!')
         .setDMPermission(false)
         .setDefaultMemberPermissions(PermissionFlagsBits.ManageGuild)
         .addChannelOption(option => option.setName('channel')

@@ -307,12 +307,12 @@ export default {
   VoiceLevelupChannel: { type: String, default: "" },
   LevelupMessage: {
     type: String,
-    default: "**Chúc mừng tuất** {user:mention}, mày đã tu đến cấp độ **{user:level}**",
+    default: "Uầy có bạn {user:mention}, siêu đáng yêu vừa lên cấp nè **{user:level}**",
   },
   VoiceLevelupMessage: {
     type: String,
     default:
-      "**GG** {user:mention}, you are now level **{user:level}** in voice",
+      "**Chúc mừng nhé** {user:mention}, Cậu đã đạt tới **{user:level}** Trong voice",
   },
   Cards: { type: Object, default: { RankUp: false } },
   RankCard: {

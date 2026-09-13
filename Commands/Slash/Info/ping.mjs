@@ -6,7 +6,7 @@ import ping from '../../Prefix/Info/ping.mjs';
 export default {
   data: new SlashCommandBuilder()
     .setName('ping')
-    .setDescription('pong 🏓'),
+    .setDescription('pong 🏓(Ping của bot)'),
   category: "General",
   cooldown: 10,
   run: async ({ interaction, client, err, guildData }) => {

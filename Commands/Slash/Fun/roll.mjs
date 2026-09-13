@@ -3,7 +3,7 @@ import { SlashCommandBuilder } from 'discord.js';
 export default {
   data: new SlashCommandBuilder()
     .setName('roll')
-    .setDescription('Roll a six-sided dice'),
+    .setDescription('Roll'),
   category: 'Fun',
   cooldown: 5,
   run: async ({ interaction, client, err, guildData }) => {
